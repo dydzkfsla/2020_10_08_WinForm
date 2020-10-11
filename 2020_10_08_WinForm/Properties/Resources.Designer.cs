@@ -8,63 +8,107 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _2020_10_08_WinForm.Properties
-{
-
-
+namespace _2020_10_08_WinForm.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
     /// </summary>
     // 이 클래스는 ResGen 또는 Visual Studio와 같은 도구를 통해 StronglyTypedResourceBuilder
     // 클래스에서 자동으로 생성되었습니다.
-    // 멤버를 추가하거나 제거하려면 .ResX 파일을 편집한 다음 /str 옵션을 사용하여
-    // ResGen을 다시 실행하거나 VS 프로젝트를 다시 빌드하십시오.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    // 멤버를 추가하거나 제거하려면 .ResX 파일을 편집한 다음 /str 옵션을 사용하여 ResGen을
+    // 다시 실행하거나 VS 프로젝트를 다시 빌드하십시오.
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_2020_10_08_WinForm.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
         ///   재정의합니다.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   돌다리도 두드려 보고 건너라
+        ///구슬이 서말이라도 꿰어야 보배
+        ///발 없는 말이 천리 간다
+        ///서당개 삼년이면 풍월을 읊는다
+        ///선 무당이 사람 잡는다
+        ///과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string typedata1 {
+            get {
+                return ResourceManager.GetString("typedata1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   도토리가 문을 도로록, 드르륵, 두루룩 열었는가?드로록, 두루륵, 두르룩 열었는가.
+        ///우리집 옆집 앞집 뒤창살은 홑겹창살이고우리집 뒷집 앞집 옆창살은 겹홑창살이다.
+        ///한양양장점 옆에 한영양장점
+        ///청단풍잎 홍단풍잎 흑단풍잎 백단풍잎
+        ///작은 토끼 토끼통 옆에는 큰 토끼 토끼 통이 있고
+        ///큰 토끼 토끼통 옆에는 작은 토끼 토끼 통이 있다.
+        ///저기 가는 저 상장사가 새 상 상장사냐 헌 상 상장사냐.
+        ///생각이란 생각하면 생각할수록 생각나는 것이 생각이므로
+        ///생각하지 않는 생각이 좋은 생각이라 생각한다.
+        ///안촉촉한 초코칩 나라에 살던 안촉촉한 초코칩이
+        ///촉촉한 초코칩 나라의 촉촉한 초코칩을 보고
+        ///촉촉한 초코칩이 되고 싶어서 촉촉한 초코칩 나라에 갔는데
+        ///촉촉한 초코칩 나라의 문지기가 &quot;넌 촉촉한 초코칩이 아니고
+        ///안촉촉한 초코칩이니까 안촉촉한 초코칩나라에서 살아&quot;라고해서
+        ///안촉촉한 초코칩은 촉촉한 초코칩이 되는것을 포기하고
+        ///안촉촉한 초코칩 나라로 돌아갔다.
+        ///내가 그린 기린 그림은 긴 기린 그림이고
+        ///네가 그린[나머지 문자열은 잘림]&quot;;과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string typedata2 {
+            get {
+                return ResourceManager.GetString("typedata2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   床前明月光머리맡에 밝은 달빛
+        ///疑是地上霜땅에 내린 서리인가
+        ///擧頭望明月머리 들어 밝은 달 바라보다
+        ///低頭思故鄕고개 숙여 고향을 생각한다과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string typedata3 {
+            get {
+                return ResourceManager.GetString("typedata3", resourceCulture);
             }
         }
     }
